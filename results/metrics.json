@@ -1,0 +1,58 @@
+[
+  {
+    "model": "LogisticRegression",
+    "cv": "StratifiedKFold-5",
+    "feature_type": "csp",
+    "elapsed_s": 268.2,
+    "accuracy_mean": 0.5473,
+    "accuracy_std": 0.0234,
+    "balanced_accuracy_mean": 0.5442,
+    "balanced_accuracy_std": 0.0267,
+    "f1_macro_mean": 0.5412,
+    "f1_macro_std": 0.0269,
+    "auc_roc_mean": 0.5646,
+    "auc_roc_std": 0.0397
+  },
+  {
+    "model": "SVM_RBF",
+    "cv": "StratifiedKFold-5",
+    "feature_type": "csp",
+    "elapsed_s": 268.2,
+    "accuracy_mean": 0.5384,
+    "accuracy_std": 0.0518,
+    "balanced_accuracy_mean": 0.5352,
+    "balanced_accuracy_std": 0.0531,
+    "f1_macro_mean": 0.5338,
+    "f1_macro_std": 0.0544,
+    "auc_roc_mean": 0.5695,
+    "auc_roc_std": 0.0571
+  },
+  {
+    "model": "RandomForest",
+    "cv": "StratifiedKFold-5",
+    "feature_type": "csp",
+    "elapsed_s": 280.0,
+    "accuracy_mean": 0.5517,
+    "accuracy_std": 0.032,
+    "balanced_accuracy_mean": 0.5473,
+    "balanced_accuracy_std": 0.0334,
+    "f1_macro_mean": 0.5446,
+    "f1_macro_std": 0.0357,
+    "auc_roc_mean": 0.589,
+    "auc_roc_std": 0.0517
+  },
+  {
+    "model": "EEGNet",
+    "cv": "StratifiedKFold-5",
+    "feature_type": "csp",
+    "elapsed_s": 682.2,
+    "accuracy_mean": 0.6918,
+    "accuracy_std": 0.0355,
+    "balanced_accuracy_mean": 0.6896,
+    "balanced_accuracy_std": 0.0343,
+    "f1_macro_mean": 0.6898,
+    "f1_macro_std": 0.0346,
+    "auc_roc_mean": 0.7632,
+    "auc_roc_std": 0.0395
+  }
+]
